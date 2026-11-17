@@ -17,7 +17,7 @@ class Solution {
                 }
                 row[r]|=bitNum;
                 cols[c]|=bitNum;
-                boxes[boxIdx]=boxes[boxIdx]|bitNum;
+                boxes[boxIdx]|=bitNum;
             }
         }
         return true;
