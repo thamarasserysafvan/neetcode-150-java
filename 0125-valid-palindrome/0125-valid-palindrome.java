@@ -12,8 +12,6 @@ class Solution {
                 str2=ch+str2;
             }
         }
-        System.out.println(str);
-        System.out.println(str2);
         if (str.equals(str2)) return true;
         return false;
         
